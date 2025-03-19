@@ -1,6 +1,15 @@
 <?php
 
-$fruits =array("apples","orange");
+$fruits = array("apples", "orange");
+// menambahkan array bisa seperti ini
+$fruits[] = "mangga";
 
-var_dump($fruits)
-?>
+// mengakses value di array
+$fruits[0];
+
+// menghapus array
+unset($fruits[0]);
+
+
+
+var_dump($fruits);
