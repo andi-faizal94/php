@@ -24,15 +24,21 @@ foreach ($fruits as $key => $value) {
 };
 
 
-$array = [
+$arrays = [
     "one" => 1,
     "two" => 2,
     "three" => 3,
     "seventeen" => 17
 ];
 
+array_pop($arrays);
+
+print_r($arrays);
+
+
+
 // jika data adalah array of object key adalah key dan value adalah valuenya
 
-foreach ($array as $key => $value) {
+foreach ($arrays as $key => $value) {
     echo "this $key and $value <br>";
 }
