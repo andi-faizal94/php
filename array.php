@@ -18,7 +18,7 @@ print_r($fruits);
 var_dump($fruits);
 
 
-// jika data adalah array of string key adalah key dan value adalah index
+// jika data adalah array of string key adalah index dan value adalah value
 foreach ($fruits as $key => $value) {
     echo "Current element of $fruits: $key $name <br>";
 };
